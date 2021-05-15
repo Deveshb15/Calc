@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(10,246,191);
+    background: linear-gradient(90deg, rgba(10,246,191,1) 29%, rgba(0,212,255,1) 86%);
+}
+
+.calc-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto), repeat(5, 100px);
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.calc-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #e8ffff;
+    padding: 10px;
+}
+
+.calc-grid > button:hover{
+    background-color: #cbf1f5;
+}
+
+.calc-grid > button:active{
+    transform: scale(1.04);
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.output{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: #364f6b;
+}
+
+.output .previous{
+    color: rgba(255,255,255,0.75);
+    font-size: 1.5rem;
+}
+
+.output .next{
+    color: #fff;
+    font-size: 2.5rem;
+}
