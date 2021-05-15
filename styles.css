@@ -20,6 +20,7 @@ body{
     align-content: center;
     justify-content: center;
     min-height: 100vh;
+    /* padding: 10px; */
 }
 
 .calc-grid > button{
@@ -49,16 +50,8 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    padding: 60px;
+    padding: 30px;
     background-color: #364f6b;
-}
-
-.output .previous{
-    color: rgba(255,255,255,0.75);
-    font-size: 1.5rem;
-}
-
-.output .next{
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
