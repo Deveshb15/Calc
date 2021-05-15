@@ -1,2 +1,1 @@
-Just a simple calculator!í·®
-
+Just a simple calculator!ðŸ§®
