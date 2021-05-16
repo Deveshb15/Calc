@@ -10,7 +10,7 @@ body{
     padding: 0;
     margin: 0;
     background: rgb(10,246,191);
-    background: linear-gradient(90deg, rgba(10,246,191,1) 29%, rgba(0,212,255,1) 86%);
+    background: radial-gradient(circle, rgba(10,246,191,1) 29%, rgba(0,212,255,1) 95%);
 }
 
 .calc-grid{
