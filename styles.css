@@ -52,6 +52,15 @@ body{
     justify-content: space-around;
     padding: 30px;
     background-color: #364f6b;
+    height: 150px;
+}
+
+.output .previous-op{
+    color: rgba(255,255,255,0.75);
+    font-size: 1.5rem;
+}
+
+.output .current-op{
     color: #fff;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
 }
