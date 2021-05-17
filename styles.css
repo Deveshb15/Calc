@@ -10,7 +10,18 @@ body{
     padding: 0;
     margin: 0;
     background: rgb(10,246,191);
-    background: radial-gradient(circle, rgba(10,246,191,1) 29%, rgba(0,212,255,1) 95%);
+    background: linear-gradient(90deg, rgba(10,246,191,1) 33%, rgba(5,212,252,1) 95%);
+    background-size : 300%;
+    animation: bg-animation 5s infinite alternate;
+}
+
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
 }
 
 .calc-grid{
